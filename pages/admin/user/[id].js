@@ -48,7 +48,7 @@ const UserProfile = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 grid-cols-1 mt-16">
+        <div className="mt-16">
           <Dropdown title="Wallet Addresses">
             <ul>
               {Object.entries(user.walletAddresses).map(([crypto, address]) => (
